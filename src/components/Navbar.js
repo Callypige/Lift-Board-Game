@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
             easing: theme.transitions.easing.sharp,
             duration: theme.transitions.duration.leavingScreen,
         }),
-        backgroundColor: 'rgb(158,255,205)',
+        backgroundColor: 'rgb(254, 184, 114)',
     },
     appBarShift: {
         width: `calc(100% - ${drawerWidth}px)`,
@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
     },
     drawerPaper: {
         width: drawerWidth,
-        backgroundColor: 'rgb(158,255,205)',
+        backgroundColor: 'rgb(254, 184, 114)',
     },
     drawerHeader: {
         display: 'flex',
@@ -99,7 +99,7 @@ export default function Navbar() {
         <div className={classes.root}>
             <CssBaseline/>
             <AppBar
-                style={{backgroundColor: 'rgb(48,235,137)'}}
+                style={{backgroundColor: 'rgb(254, 184, 114)'}}
                 position="fixed"
                 className={classes.appBar}
             >
@@ -137,9 +137,7 @@ export default function Navbar() {
                 <Divider/>
 
                 <div className={classes.button}>
-                    {/*<Link className={classes.link} href=""><Typography>Nouveau rêve</Typography></Link>
-                    <Link className={classes.link} href=""><Typography>A propos</Typography></Link>
-                    <Link className={classes.link} href=""><Typography>Report bug</Typography></Link>*/}
+                    <Link className={classes.link} href=""><Typography>Liste des jeux</Typography></Link>
                 </div>
             </Drawer>
         </div>

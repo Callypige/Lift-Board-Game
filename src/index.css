@@ -1,8 +1,12 @@
 body {
-    background: rgb(206,249,226);
-    background: linear-gradient(90deg, rgba(206,249,226,1) 0%, rgba(228,242,235,1) 69%, rgba(238,241,239,1) 100%);
+    background: #FEB872;
+
 }
 
 .container {
     /*color: white;*/
+}
+
+img {
+    border-radius: 8px;
 }
